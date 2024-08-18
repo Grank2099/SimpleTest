@@ -50,7 +50,7 @@ def main():
     assistente_falante = True
     ligar_microfone = True
 
-    genai.configure(api_key="AIzaSyAWDtYtY8rIasca_hUmatpXggRbreccER8")
+    genai.configure(api_key="SUAKEY")
     model = genai.GenerativeModel('gemini-pro')
     chat = model.start_chat(history=[])
 
